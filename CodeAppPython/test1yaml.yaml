@@ -1,0 +1,4 @@
+os : 'ami-4836a428'
+instancetype : 't2.micro'
+servicetype: {'alaram': 'alrmup','alaramdown': 'alrmdown','asgname': 'codeappauto','elbname': 'codelb','inspname': 'codeappinsp','key': 'codeappkey',
+                 'lconfigname': 'codeapplconf','polname': 'codeapppol','rolename': 'codeapprol','sdpname': 'sdppol','sgname': 'codesg','supname': 'suppol'}

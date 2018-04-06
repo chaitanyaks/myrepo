@@ -1,0 +1,24 @@
+OS:'ami-efd0428f'
+instancetype:'t2.micro'
+servicetype:
+	 'ec2':
+		- policyname: 'ec2'
+		- rolename: 'ec2'
+		- instanceprofile: 'ec2'
+	'codebuild':
+		- policyname: 'codebuild'
+		- rolename: 'codebuild'
+		- instanceprofile: None
+	'codedeploy':
+		- policyname: 'codedeploy'
+		- rolename: 'codedeploy'
+		- instanceprofile: None
+	'codepipeline':
+		- policyname: 'codepipeline'
+		- rolename: 'codepipeline'
+		- instanceprofile: None
+securitygroupname: 'secgroup'
+keypairname: 'keypair'
+EC2Instance:
+	- tagkey: 'ec2ins'
+	- tagvalue: 'ec2ins'

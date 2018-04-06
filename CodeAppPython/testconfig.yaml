@@ -1,0 +1,5 @@
+os : 'ami-efd0428f'
+instancetype : 't2.micro'
+sertype : ['ec2','codebuild','codedeploy','codepipeline']
+servicetype : {'ec2':{policyname: 'ec2123',rolename: 'ec2123',instanceprofile: 'ec2123'},'codebuild':{policyname: 'codebuild123',rolename: 'codebuild123',instanceprofile: 'None'},'codedeploy':{policyname: 'codedeploy123',rolename: 'codedeploy123',instanceprofile: 'None'},'codepipeline':{policyname: 'codepipeline123',rolename: 'codepipeline123',instanceprofile: 'None'}}
+
